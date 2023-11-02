@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>じゃんけんゲーム</title>
+</head>
+<body>
+
+    <div id="win">
+        勝利！
+    </div>
+        
+    <h1>打倒！アンパンマン</h1>
+
+    <div class="battle">
+
+    <div class="field">
+    <img src="imgs/アンパンマン.gif" alt="敵" width="300px">
+    <div class="life">
+        <img src="imgs/ライフ.png" id="computerlife1" alt="ライフ1" width="40px">
+        <img src="imgs/ライフ.png" id="computerlife2" alt="ライフ2" width="40px">
+        <img src="imgs/ライフ.png" id="computerlife3" alt="ライフ3" width="40px">
+    </div>
+    <img src="imgs/グー.jpg" alt="敵の手" id="enemy_hand" width="150px">
+    </div>
+
+    <p class="vs">VS</p>
+    
+    <div class="field">
+    <img src="imgs/バイキンマン.gif" alt="自" width="300px">
+    <div class="life">
+        <img src="imgs/ライフ.png" id="playerlife1" alt="ライフ1" width="40px">
+        <img src="imgs/ライフ.png" id="playerlife2" alt="ライフ2" width="40px">
+        <img src="imgs/ライフ.png" id="playerlife3" alt="ライフ3" width="40px">
+    </div>
+    <img src="imgs/グー.jpg" alt="自の手" id="player_hand" width="150px">
+    </div>
+    </div>
+
+    <div id="choices">
+        <button id="rock">グー</button>
+        <button id="scissors">チョキ</button>
+        <button id="paper">パー</button>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
