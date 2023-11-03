@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    align-items: center;
     flex-flow: column;  
 }
 
@@ -18,7 +19,7 @@ h1 {
 .battle{
     display: flex;
     margin: 0 auto;
-    width: 700px;
+    width:fit-content;
 }
 
 .field{
@@ -40,6 +41,7 @@ h1 {
 .life{
     display: flex;
     width: 120px;
+    height: 40px;
     margin: 0 auto;
 }
 
